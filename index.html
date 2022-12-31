@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avengers</title>
+    <link rel="icon" href="images/LOGO.png"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+</head>
+<body onload="myFunction()">
+    <div id="loading">
+        <img src="images/Mr3W.gif" alt="" id="loadimg">  
+       </div>
+    <div class="white">
+    <header class="navbar">
+        <div class="image"><img src="images/LOGO.png" alt="" width="40px" height="100%"></div>
+        <div class="nav">
+        <ul class="navlist" onclick="f1()">
+            <div onclick="f1()" class="flex">
+            <li onclick="close1()"><a class="active"  href="#">Home</a></li>
+            <li onclick="close1()"><a class="active"   onclick="f1()" href="avenger.html">Avengers</a></li>
+        </div>
+        </ul>
+        </div>
+        <div class="menu-lines" id="toggle-button">
+            <div onclick="f1()">
+            <i id="but" class="fa-solid fa-bars fa-2x"></i>
+            </div> 
+        </div>
+        <div class="cross" id="cross-button">
+            <div onclick="f1()">
+                <i id="but"class="fa-sharp fa-solid fa-xmark fa-2x"></i>
+            </div>
+        </div>
+    </header>
+ <section>
+    <div id="particle-image" data-params-src="params.json"></div>
+ </section>
+ <script src="particles.js"></script>
+  <!-- <div id="particles-js">
+ <div class="text"></div> 
+ </div> -->
+<!-- </script> -->
+<script>
+    var preloader = document.getElementById("loading");
+    function myFunction(){
+      setTimeout(() =>{
+        preloader.style.display = 'none';
+       },2800);
+    };
+  </script>
+    <script src="script.js"></script>
+</div>
+</body>
+</html>

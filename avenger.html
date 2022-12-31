@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Avenger</title>
+  <link rel="icon" href="images/dlf.pt-avenger-png-1635325.png"/>
+  <link rel="stylesheet" href="avenger.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body onload="myFunction()">
+    <div id="loading">
+        <img src="images/Mr3W.gif" alt="" id="loadimg">  
+       </div>
+ <a href="index.html">
+    <i class="fa-solid fa-house-user fa-2x"></i>
+ </a>
+<section id="slider">
+  <input type="radio" name="slider" id="s1" checked>
+  <input type="radio" name="slider" id="s2">
+  <input type="radio" name="slider" id="s3">
+  <input type="radio" name="slider" id="s4">
+  <input type="radio" name="slider" id="s5">
+  <input type="radio" name="slider" id="s6">
+
+  <label for="s1" id="slide1"><img src="images/WallpaperDog-20430515.jpg" alt=""></label>
+  <label for="s2" id="slide2"><img src="images/azmathulla-shaik-K5TfhhrNs20-unsplash.jpg" alt=""></label>
+  <label for="s3" id="slide3"><img src="images/mulyadi-BSan_z2go3A-unsplash.jpg" alt=""></label>
+  <label for="s4" id="slide4"><img src="images/mulyadi-MO7HNbW1Mew-unsplash.jpg" alt=""></label>
+  <label for="s5" id="slide5"><img src="images/anirudh-3esjG-nlgyk-unsplash.jpg" alt=""></label>
+  <label for="s6" id="slide5"><img src="images/WallpaperDog-20430541 (1).jpg" alt=""></label>
+</section>
+<script>
+    var preloader = document.getElementById("loading");
+    function myFunction(){
+      setTimeout(() =>{
+        preloader.style.display = 'none';
+       },2800);
+    };
+  </script>
+</body>
+</html>
