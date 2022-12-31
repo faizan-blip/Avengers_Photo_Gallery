@@ -5,20 +5,9 @@
 }
 html,body{
     overflow-y: hidden;
+    background-image:radial-gradient(circle,white,black);
+    
 }
-::-webkit-scrollbar {
-    width: 5px;
-}
-::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-::-webkit-scrollbar-thumb {
-    background: #555;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: white;
-} 
 .navbar{
     display: flex;
     position: sticky;
@@ -31,7 +20,7 @@ html,body{
     height: 67px;
     transition: all 0.5s ease-in-out;
     z-index: 0;
-    background-color: black;
+    /* background-image:radial-gradient(white,black); */
 }
 .navlist li{
     display: inline-block;
@@ -139,7 +128,8 @@ html,body{
 }
 /*  */
 #particle-image{
-    background:url('images/27230.jpg');
+    /* background:url('images/27230.jpg'); */
+    /* background-color: aliceblue; */
     background-size: cover;
     width: 100%;
     /* height: 100%; */

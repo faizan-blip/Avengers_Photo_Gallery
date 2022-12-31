@@ -4,7 +4,7 @@ const ParticleImageDisplayer = function(tag_id, canvas_el, params) {
     particles: {
       array: [],
       density: 80,
-      color: '#00000',
+      color: '#000000',
       size: {
         value: 3,
         random: false,
@@ -40,8 +40,8 @@ const ParticleImageDisplayer = function(tag_id, canvas_el, params) {
       },
       size: {
         canvas_pct: 60,
-        min_px: 90,
-        max_px: 450
+        min_px: 60,
+        max_px: 400
       }
     },
     interactions: {
@@ -472,7 +472,7 @@ window.particleImageDisplay = function(tag_id) {
 };
 setTimeout(() =>{
   window.particleImageDisplay("particle-image");
-},2800);
+},3000);
  
 
 
